@@ -1,0 +1,164 @@
+@media (max-width: 1000px) {
+	.slider__top:before,
+	.slider__top:after,
+	.footer__inner:after,
+	.footer__inner:before {
+		display: none;
+	}
+}
+
+@media (max-width: 950px) {
+	.works__items {
+		gap: 10px;
+	}
+
+	.works__items {
+		flex: 2;
+	}
+}
+@media (max-width: 905px) {
+	.slick-next.slick-arrow, 
+	.slick-prev.slick-arrow {
+		display: none;
+	}
+	.slider__top {
+		margin-bottom: 0;
+	}
+
+	.slider__top-item {
+		max-height: 365px;
+	}
+	.benefits__items {
+		flex-wrap: wrap;
+	}
+
+	.benefits__item {
+		margin-bottom: 25px;
+		width: 50%;
+	}
+}
+
+@media (max-width: 868px) {
+	
+	.benefits__item {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+
+	.benefits__items {
+		margin: 0 auto;
+	}
+
+	.benefits {
+		padding-bottom: 25px;
+	}
+
+	.footer__inner {
+		flex-wrap: wrap;
+		max-height: auto;
+	}
+
+	.footer__about{
+		width: 100%;
+	}
+}
+
+@media (max-width: 768px) {
+	.menu__list {
+		display: none;
+	}
+
+	.header__menu-btn {
+		display: block;
+	}
+
+	.menu > .menu__list {
+		display: none;
+		position: absolute;
+		top: 78px;
+		z-index: 5;
+		left: 0;
+		right: 0;
+		width: 100%;
+		background-color: #fff;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+
+	.slider__top-text {
+		padding: 10px;
+		width: 320px;
+		font-size: 10px;
+	}
+
+	.slider__top-text span {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+
+	.slider__top-item {
+		max-height: 322px;
+	}
+
+}
+
+@media (max-width: 730px) {
+	.works__items {
+		justify-content: space-around;
+	}
+}
+
+@media (max-width: 700px) {
+	.slider__top-item {
+		max-height: 290px;
+	}
+
+}
+
+@media (max-width: 630px) {
+	.slider__top-item {
+		max-height: 255px;
+	}
+}
+
+@media (max-width: 550px) {
+	.slider__top-text {
+		padding: 5px;
+		width: 80%;
+		left: 0;
+	}
+
+	.footer__about{
+		width: 100%;
+	}
+
+	.slider__top-text span {
+		font-size: 14px;
+		margin-bottom: 5px;
+	}
+
+	.slider__top-item {
+		max-height: 220px;
+	}
+}
+
+@media (max-width: 480px) {
+	.slider__top-item {
+		max-height: 182px;
+	}
+
+	.social-links {
+		justify-content: space-between;
+	}
+
+}
+@media (max-width: 400px) {
+	.slider__top-item {
+		max-height: 155px;
+	}
+}
+@media (max-width: 350px) {
+	.slider__top-item {
+		max-height: 132px;
+	}
+}
